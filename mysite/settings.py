@@ -144,4 +144,4 @@ EMAIL_HOST = 'smtp-mail.outlook.com'
 EMAIL_HOST_USER = 'placementmarr@outlook.fr'
 EMAIL_HOST_PASSWORD = "Mouloudia1921"
 
-CSRF_TRUSTED_ORIGINS = ['https://placement-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://placement-production.up.railway.app']
