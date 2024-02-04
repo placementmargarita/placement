@@ -5,6 +5,7 @@ from . import views
 urlpatterns = [
     #main website
     path("esp/", views.indexesp, name="indexesp"),
+    path("", views.indexfr, name="indexfr"),
     path("formesp/", views.formesp, name="formesp"),
     path("formfr/", views.formfr, name="formfr"),
     path("emploifr/", views.emploifr, name="emploifr"),
