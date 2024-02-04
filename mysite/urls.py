@@ -2,13 +2,14 @@
 from django.contrib import admin
 from django.urls import include, path
 from django.conf.urls.static import static
-
+from myapp.views import *
 from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     #link urls from an app
+    path("", views.indexfr, name="indexfr"),
     path("myapp/", include("myapp.urls")),
     path("gestion/", include("gestion.urls")),
 ]
