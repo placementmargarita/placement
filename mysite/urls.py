@@ -9,7 +9,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     #link urls from an app
-    path("", views.indexfr, name="indexfr"),
+    path("", myapp.views.indexfr, name="indexfr"),
     path("myapp/", include("myapp.urls")),
     path("gestion/", include("gestion.urls")),
 ]
