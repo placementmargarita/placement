@@ -9,6 +9,6 @@ urlpatterns = [
 
     #link urls from an app
     
-    path("myapp/", include("myapp.urls")),
+    path("", include("myapp.urls")),
     path("gestion/", include("gestion.urls")),
 ]
